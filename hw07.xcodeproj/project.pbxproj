@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9A77F882805C8CB00FD75DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9A77F872805C8CB00FD75DE /* main.cpp */; };
+		A9A77F882805C8CB00FD75DE /* hw07-single.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9A77F872805C8CB00FD75DE /* hw07-single.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,15 @@
 
 /* Begin PBXFileReference section */
 		A9A77F842805C8CB00FD75DE /* hw07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw07; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9A77F872805C8CB00FD75DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A9A77F872805C8CB00FD75DE /* hw07-single.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "hw07-single.cpp"; sourceTree = "<group>"; };
+		A9B5F513280904BA0066D7CB /* Noble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Noble.h; sourceTree = "<group>"; };
+		A9B5F5142809053B0066D7CB /* Protector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protector.h; sourceTree = "<group>"; };
+		A9B5F515280905C10066D7CB /* noble.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = noble.cpp; sourceTree = "<group>"; };
+		A9B5F516280905C10066D7CB /* noble.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = noble.hpp; sourceTree = "<group>"; };
+		A9B5F517280906AC0066D7CB /* hw07.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hw07.cpp; sourceTree = "<group>"; };
+		A9B5F518280906AC0066D7CB /* hw07-single.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "hw07-single.hpp"; sourceTree = "<group>"; };
+		A9B5F519280906FD0066D7CB /* protector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = protector.cpp; sourceTree = "<group>"; };
+		A9B5F51A280906FD0066D7CB /* protector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = protector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,14 @@
 		A9A77F7B2805C8CB00FD75DE = {
 			isa = PBXGroup;
 			children = (
+				A9B5F513280904BA0066D7CB /* Noble.h */,
+				A9B5F5142809053B0066D7CB /* Protector.h */,
+				A9B5F515280905C10066D7CB /* noble.cpp */,
+				A9B5F519280906FD0066D7CB /* protector.cpp */,
+				A9B5F51A280906FD0066D7CB /* protector.hpp */,
+				A9B5F517280906AC0066D7CB /* hw07.cpp */,
+				A9B5F518280906AC0066D7CB /* hw07-single.hpp */,
+				A9B5F516280905C10066D7CB /* noble.hpp */,
 				A9A77F862805C8CB00FD75DE /* hw07 */,
 				A9A77F852805C8CB00FD75DE /* Products */,
 			);
@@ -57,7 +73,7 @@
 		A9A77F862805C8CB00FD75DE /* hw07 */ = {
 			isa = PBXGroup;
 			children = (
-				A9A77F872805C8CB00FD75DE /* main.cpp */,
+				A9A77F872805C8CB00FD75DE /* hw07-single.cpp */,
 			);
 			path = hw07;
 			sourceTree = "<group>";
@@ -119,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A77F882805C8CB00FD75DE /* main.cpp in Sources */,
+				A9A77F882805C8CB00FD75DE /* hw07-single.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
